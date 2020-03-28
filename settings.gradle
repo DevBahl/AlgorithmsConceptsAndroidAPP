@@ -1,0 +1,2 @@
+rootProject.name='Algorithms And Data Structures'
+include ':app'

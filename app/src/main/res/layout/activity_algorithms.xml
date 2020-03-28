@@ -22,48 +22,42 @@
             android:id="@+id/kruskal"
             android:layout_width="350dp"
             android:layout_height="100dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="30dp"
+            android:layout_margin="35dp"
             android:text="Kruskal's"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/prim"
             android:layout_width="350dp"
             android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp"
+            android:layout_margin="35dp"
             android:text="Prim's"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/huffmann"
             android:layout_width="350dp"
             android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp"
+            android:layout_margin="35dp"
             android:text="Huffman"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/mastertheorem"
             android:layout_width="350dp"
             android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp"
+            android:layout_margin="35dp"
             android:text="Master Theorem"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/divideandconquer"
             android:layout_width="350dp"
             android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp"
+            android:layout_margin="35dp"
             android:text="Divide and Conquer"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/greedy"
             android:layout_width="350dp"
             android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp"
+            android:layout_margin="35dp"
             android:text="Greedy approach"
             android:background="@drawable/scroll_button"/>
 

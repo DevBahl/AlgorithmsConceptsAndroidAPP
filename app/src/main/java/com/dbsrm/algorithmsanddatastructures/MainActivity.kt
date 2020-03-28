@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"Still Working On it",Toast.LENGTH_LONG).show()
         }
 
-        var str = "Right Now Only Algorithm Concepts are added, I am Working on others"
+        var str = "Only Algorithms are Available"
         displayText.setText(str)
 
 

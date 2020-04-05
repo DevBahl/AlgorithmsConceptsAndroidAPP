@@ -1,10 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SortingTechniques">
+    tools:context=".SortingTechniques"
+    android:layout_gravity="center"
+    android:background="#a4c5c6">
 
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SORTING TECHNIQUES"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/bubble"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_margin="35dp"
+            android:text="Bubble Sort"
+            android:background="@drawable/scroll_button"/>
+        <Button
+            android:id="@+id/merge"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_margin="35dp"
+            android:text="Merge Sort"
+            android:background="@drawable/scroll_button"/>
+        <Button
+            android:id="@+id/selection"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_margin="35dp"
+            android:text="Selection Sort"
+            android:background="@drawable/scroll_button"/>
+        <Button
+            android:id="@+id/insertion"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_margin="35dp"
+            android:text="Insertion Sort"
+            android:background="@drawable/scroll_button"/>
+
+
+    </LinearLayout>
 </ScrollView>

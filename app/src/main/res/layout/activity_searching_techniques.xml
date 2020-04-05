@@ -1,9 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchingTechniques">
+    tools:context=".SearchingTechniques"
+    android:layout_gravity="center"
+    android:background="#a4c5c6">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SEARCHING TECHNIQUES"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/linear"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_margin="35dp"
+            android:text="Linear Search"
+            android:background="@drawable/scroll_button"/>
+        <Button
+            android:id="@+id/binary"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_margin="35dp"
+            android:text="Binary Search"
+            android:background="@drawable/scroll_button"/>
+
+
+    </LinearLayout>
+</ScrollView>

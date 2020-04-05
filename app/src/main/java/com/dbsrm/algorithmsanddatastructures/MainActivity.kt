@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"Still Working On it",Toast.LENGTH_LONG).show()
         }
         button2.setOnClickListener {
-            Toast.makeText(this,"Still Working On it",Toast.LENGTH_LONG).show()
+            val intent = Intent(this,SortingTechniques::class.java)
+            startActivity(intent)
         }
         button4.setOnClickListener {
             Toast.makeText(this,"Still Working On it",Toast.LENGTH_LONG).show()

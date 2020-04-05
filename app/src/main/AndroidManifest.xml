@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainFragment"></activity>
+        <activity android:name=".SortingFiles.SelectionSort"></activity>
+        <activity android:name=".SortingFiles.InsertionSort" />
+        <activity android:name=".SortingFiles.MergeSort" />
+        <activity android:name=".SortingFiles.BubbleSort" />
+        <activity android:name=".SearchingFiles.BinarySearch" />
+        <activity android:name=".SearchingFiles.LinearSearch" />
         <activity android:name=".About" />
         <activity android:name=".AlgorithmFiles.Greedy" />
         <activity android:name=".AlgorithmFiles.DivideAndConquer" />

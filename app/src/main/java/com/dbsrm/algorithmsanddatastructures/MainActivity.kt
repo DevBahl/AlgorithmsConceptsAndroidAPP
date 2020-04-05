@@ -25,7 +25,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         button4.setOnClickListener {
-            Toast.makeText(this,"Still Working On it",Toast.LENGTH_LONG).show()
+            val intent = Intent(this,SearchingTechniques::class.java)
+            startActivity(intent)
         }
 
         var str = "Only Algorithms are Available"

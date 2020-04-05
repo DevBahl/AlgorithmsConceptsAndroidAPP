@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".SortingTechniques"
     android:layout_gravity="center"
-    android:background="#a4c5c6">
+    android:background="#000839">
 
 
     <LinearLayout
@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="SORTING TECHNIQUES"
+            android:textColor="#ffffff"
             android:textSize="35sp" />
 
         <Button
@@ -24,6 +25,7 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Bubble Sort"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/merge"
@@ -31,6 +33,7 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Merge Sort"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/selection"
@@ -38,6 +41,7 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Selection Sort"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/insertion"
@@ -45,6 +49,7 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Insertion Sort"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
 
 

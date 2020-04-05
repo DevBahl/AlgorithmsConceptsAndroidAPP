@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        var str = "Only Algorithms are Available"
+        var str = "Still working on Data Structures Concepts"
         displayText.setText(str)
 
 

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".SearchingTechniques"
     android:layout_gravity="center"
-    android:background="#a4c5c6">
+    android:background="#000839">
 
 
     <LinearLayout
@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="SEARCHING TECHNIQUES"
+            android:textColor="#ffffff"
             android:textSize="34sp" />
 
         <Button
@@ -24,6 +25,7 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Linear Search"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/binary"
@@ -31,6 +33,7 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Binary Search"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
 
 

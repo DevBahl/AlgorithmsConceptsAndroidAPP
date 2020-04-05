@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Algorithms"
     android:layout_gravity="center"
-    android:background="#a4c5c6">
+    android:background="#000839">
 
 
     <LinearLayout
@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="ALGORITHMS"
+            android:textColor="#ffffff"
             android:textSize="40sp" />
 
         <Button
@@ -25,6 +26,7 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Kruskal's"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/prim"
@@ -32,6 +34,7 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Prim's"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/huffmann"
@@ -39,11 +42,13 @@
             android:layout_height="100dp"
             android:layout_margin="35dp"
             android:text="Huffman"
+            android:textColor="#ffffff"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/mastertheorem"
             android:layout_width="350dp"
             android:layout_height="100dp"
+            android:textColor="#ffffff"
             android:layout_margin="35dp"
             android:text="Master Theorem"
             android:background="@drawable/scroll_button"/>
@@ -52,12 +57,14 @@
             android:layout_width="350dp"
             android:layout_height="100dp"
             android:layout_margin="35dp"
+            android:textColor="#ffffff"
             android:text="Divide and Conquer"
             android:background="@drawable/scroll_button"/>
         <Button
             android:id="@+id/greedy"
             android:layout_width="350dp"
             android:layout_height="100dp"
+            android:textColor="#ffffff"
             android:layout_margin="35dp"
             android:text="Greedy approach"
             android:background="@drawable/scroll_button"/>

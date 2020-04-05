@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#a4c5c6">
+    android:background="#000839">
 
 
     <TextView
@@ -15,6 +15,7 @@
         android:layout_marginTop="16dp"
         android:text="SRM IST
         DAA Project"
+        android:textColor="#ffffff"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,6 +23,7 @@
 
     <TextView
         android:id="@+id/displayText"
+        android:textColor="#ffffff"
         android:layout_width="340dp"
         android:layout_height="56dp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
@@ -91,7 +93,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center"
-        android:background="#ffffff"
+        android:background="@drawable/menu_back"
         android:elevation="16dp"
         app:cnb_menuResource="@menu/menu"
         app:layout_constraintBottom_toBottomOf="parent"

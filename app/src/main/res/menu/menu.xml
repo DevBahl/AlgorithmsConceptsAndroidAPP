@@ -5,10 +5,10 @@
         android:id="@+id/home"
         android:icon="@drawable/ic_home"
         android:title="Home"
-        app:cnb_iconColor="@color/home"/>
+        app:cnb_iconColor="@color/home" />
 
     <item
-        android:id="@+id/settings"
+        android:id="@+id/about"
         android:icon="@drawable/ic_settings"
         android:title="About"
         app:cnb_iconColor="@color/settings" />

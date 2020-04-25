@@ -3,8 +3,11 @@ package com.dbsrm.algorithmsanddatastructures
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.zip.Inflater
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,7 +21,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         button.setOnClickListener {
-            Toast.makeText(this,"Still Working On it",Toast.LENGTH_LONG).show()
+            val intent = Intent(this,DataStructures::class.java)
+            startActivity(intent)
         }
         button2.setOnClickListener {
             val intent = Intent(this,SortingTechniques::class.java)
@@ -29,9 +33,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        var str = "Still working on Data Structures Concepts"
+        var str = "All the Concepts are added"
         displayText.setText(str)
-
-
     }
 }
